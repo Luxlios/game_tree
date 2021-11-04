@@ -2,11 +2,11 @@
 game_tree的max_min极大极小搜索与alpha_beta剪枝搜索的简单应用——井字棋
 ## Contents
 - [max_min极大极小搜索](#max_min极大极小搜索)
-  - [构造一个棋盘类chessboard](#一、构造一个棋盘类chessboard)
-  - [alpha_beta剪枝搜索核心算法](#二、max_min搜索核心算法)
-  - [主函数](#三、主函数)
-  - [结果](#四、结果)
-  - [最后](#五、最后)
+  - [构造一个棋盘类chessboard](#构造一个棋盘类chessboard)
+  - [alpha_beta剪枝搜索核心算法](#max_min搜索核心算法)
+  - [主函数](#主函数)
+  - [结果](#结果)
+  - [最后](#最后)
 - [alpha_beta剪枝搜索](#alpha_beta剪枝搜索)
   - [构造一个棋盘类chessboard](#一、构造一个棋盘类chessboard)
   - [alpha_beta剪枝搜索核心算法](#二、alpha_beta剪枝搜索核心算法)
@@ -16,7 +16,7 @@ game_tree的max_min极大极小搜索与alpha_beta剪枝搜索的简单应用—
 
 ## max_min极大极小搜索
 博弈树max_min搜索的简单应用——一字棋（井字棋），用一个较为简单的游戏实现，抛砖引玉。
-### 一、构造一个棋盘类chessboard
+### 构造一个棋盘类chessboard
 ```
 class chessboard:
 ```
@@ -91,6 +91,6 @@ if self.grid[0][2] != 'X' and self.grid[1][1] != 'X' and self.grid[2][0] != 'X':
 
 return value_temp
 ```
-### 二、max_min搜索核心算法
+### max_min搜索核心算法
 首先对该方法进行简单的介绍，双人对弈，轮流下，一人走一步，双方看到的信息一样，双方均追求胜利。利用极大极小搜索时，每次搜索都生成规定深度内的所有结点，通过一定规则倒推得到节点的估值。
 
