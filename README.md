@@ -3,16 +3,16 @@ game_tree的max_min极大极小搜索与alpha_beta剪枝搜索的简单应用—
 ## Contents
 - [max_min极大极小搜索](#max_min极大极小搜索)
   - [构造一个棋盘类chessboard](#一、构造一个棋盘类chessboard)
-  - [alpha_beta剪枝搜索核心算法](### 二、max_min搜索核心算法)
-  - [主函数](###三、主函数)
-  - [结果](###四、结果)
-  - [最后](###五、最后)
-- [alpha_beta剪枝搜索](##alpha_beta剪枝搜索)
-  - [构造一个棋盘类chessboard](###一、构造一个棋盘类chessboard)
-  - [alpha_beta剪枝搜索核心算法](###二、alpha_beta剪枝搜索核心算法)
-  - [主函数](###三、主函数)
-  - [结果](###四、结果)
-  - [最后](###五、最后)
+  - [alpha_beta剪枝搜索核心算法](#二、max_min搜索核心算法)
+  - [主函数](#三、主函数)
+  - [结果](#四、结果)
+  - [最后](#五、最后)
+- [alpha_beta剪枝搜索](#alpha_beta剪枝搜索)
+  - [构造一个棋盘类chessboard](#一、构造一个棋盘类chessboard)
+  - [alpha_beta剪枝搜索核心算法](#二、alpha_beta剪枝搜索核心算法)
+  - [主函数](#三、主函数)
+  - [结果](#四、结果)
+  - [最后](#五、最后)
 
 ## max_min极大极小搜索
 博弈树max_min搜索的简单应用——一字棋（井字棋），用一个较为简单的游戏实现，抛砖引玉。
