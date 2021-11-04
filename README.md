@@ -17,6 +17,9 @@ game_tree的max_min极大极小搜索与alpha_beta剪枝搜索的简单应用—
 ## max_min极大极小搜索
 博弈树max_min搜索的简单应用——一字棋（井字棋），用一个较为简单的游戏实现，抛砖引玉。
 ### 一、构造一个棋盘类chessboard
+```
+class chessboard:
+```
 #### 1.棋盘初始化与展示函数show
 这一部分比较简单，不作详细介绍。
 ```
