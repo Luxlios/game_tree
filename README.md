@@ -26,8 +26,8 @@ class chessboard:
 def __init__(self):  # 初始化
 
 	self.grid = [['_', '_', '_'],
-				 ['_', '_', '_'],
-				 ['_', '_', '_']]
+		     ['_', '_', '_'],
+		     ['_', '_', '_']]
 	self.num = 0
 
 def show(self):    # 展示棋盘
